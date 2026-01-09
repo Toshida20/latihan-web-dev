@@ -1,3 +1,14 @@
+function validasiLogin() {
+    if (
+        document.getElementById("nickname").value.trim() === "" ||
+        document.getElementById("password").value.trim() === ""
+    ) {
+        alert("Semua field wajib diisi!");
+        return false;
+    }
+    return true;
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     document.querySelectorAll('.menuTambahan li').forEach(item => {
         const button = item.querySelector('button');
@@ -13,13 +24,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 i.classList.remove('buka');
                 const a = i.querySelector('.answer');
                 if (a) a.style.maxHeight = null;
-                i.querySelector('img').src = '../assets/plusIcon.png';
+                i.querySelector('img').src = '../assets/spirits/plusIcon.png';
             });
 
             if (!buka) {
                 item.classList.add('buka');
                 answer.style.maxHeight = answer.scrollHeight + 'px';
-                ikon.src = '../assets/closeIcon.png';
+                ikon.src = '../assets/spirits/closeIcon.png';
             }
         });
     });

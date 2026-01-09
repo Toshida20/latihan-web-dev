@@ -3,33 +3,33 @@
         <div class="Header">
             <header>
         <nav>
-            <div class="logo">
-                <img src="../assets/FLIXORANAME.png" alt="Logo Flixora" height="30">
+            <div class="header-kanan">
+                <img src="../assets/spirits/FLIXORANAME.png" alt="Logo Flixora" height="50">
             </div>
+            <div class="header-kiri">
             <select name="language" id="language">
                 <option value="indonesia">Bahasa Indonesia</option>
                 <option value="english">English</option>
             </select>
             <nav>
-                <a href="../buatAkun/buat-akun.html">Buat Akun</a> |
-                <a href="#">
-                    <img src="../assets/dots.png" alt="Logo Flixora" height="15">
-                </a>
+                <a href="../buatAkun/buat-akun.html"><h1>BUAT AKUN</h1></a>
+                <a href="#"><img src="../assets/spirits/dots.png" alt="Logo Flixora" height="30"></a>
             </nav>
         </nav>
             </header>
+            </div>
         <link rel="stylesheet" href="../styling/landingPage.css">
         <script src="../javascript/landingPage.js"></script>
     </head>
     </div>
         <div id="login">
-            <h1><a name="top">Selamat Datang di Flixora</a></h1>
-            <h3>Nikmati berbagai film menarik bersama kami</h3>
-            <form action="action-login.php">
+            <h1>Selamat Datang di <span class="Header-Flixora">Flixora</span></h1>
+            <h3>Login untuk menikmati berbagai film menarik bersama kami</h3>
+            <form action="../login/action-login.php" method="POST" onsubmit="return validasiLogin()">
                 <label for="nickname">Masukkan Nickname</label>
-                <input type="text" id="nickname" name="nickname"><br>
+                <input type="text" id="nickname" name="nickname" placeholder="Nickname"><br>
                 <label for="password">Masukkan Password</label>
-                <input type="password" id="password" name="password"><br>
+                <input type="password" id="password" name="password" placeholder="Password"><br>
                 <input type="submit" value="Login">
             </form>
         </div>
@@ -38,34 +38,34 @@
         <div class="filmCard">
             <ul class="top-10-elements">
                 <li class="top-10-element-1">
-                    <a href="#"><img src="../assets/film1.jpg" alt="Film 1" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film1.jpg" alt="Film 1" height="200"></a>
                 </li>
                 <li class="top-10-element-2">
-                    <a href="#"><img src="../assets/film2.jpg" alt="Film 2" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film2.jpg" alt="Film 2" height="200"></a>
                 </li>
                 <li class="top-10-element-3">
-                    <a href="#"><img src="../assets/film3.jpg" alt="Film 3" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film3.jpg" alt="Film 3" height="200"></a>
                 </li>
                 <li class="top-10-element-4">
-                    <a href="#"><img src="../assets/film4.jpg" alt="Film 4" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film4.jpg" alt="Film 4" height="200"></a>
                 </li>
                 <li class="top-10-element-5">
-                    <a href="#"><img src="../assets/film5.jpg" alt="Film 5" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film5.jpg" alt="Film 5" height="200"></a>
                 </li>
                 <li class="top-10-element-6">
-                    <a href="#"><img src="../assets/film6.jpg" alt="Film 6" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film6.jpg" alt="Film 6" height="200"></a>
                 </li>
                 <li class="top-10-element-7">
-                    <a href="#"><img src="../assets/film7.jpg" alt="Film 7" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film7.jpg" alt="Film 7" height="200"></a>
                 </li>
                 <li class="top-10-element-8">
-                    <a href="#"><img src="../assets/film8.jpg" alt="Film 8" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film8.jpg" alt="Film 8" height="200"></a>
                 </li>
                 <li class="top-10-element-9">
-                    <a href="#"><img src="../assets/film9.jpg" alt="Film 9" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film9.jpg" alt="Film 9" height="200"></a>
                 </li>
                 <li class="top-10-element-10">
-                    <a href="#"><img src="../assets/film10.jpg" alt="Film 10" height="200"></a>
+                    <a href="#"><img src="../assets/poster/film10.jpg" alt="Film 10" height="200"></a>
                 </li>
             </ul>
             </div>
@@ -76,59 +76,59 @@
                 <div class="benefit-card">
                     <h3>Jangan lewatkan film & series terbaru</h3>
                     <p>Semua film dan series favorit dalam satu tempat, siap temani waktu santaimu.</p>
-                    <img src="../assets/variety.png" alt="Variety Icon" height="100">
+                    <img src="../assets/spirits/variety.png" alt="Variety Icon" height="100">
                 </div>
                 <div class="benefit-card">
                     <h3>Download serial untuk menontonnya secara offline</h3>
                     <p>Simpan favoritmu dengan mudah agar selalu ada acara TV dan film yang bisa ditonton.</p>
-                    <img src="../assets/download.png" alt="Download Icon" height="100">
+                    <img src="../assets/spirits/download.png" alt="Download Icon" height="100">
                 </div>
                 <div class="benefit-card">
                     <h3>Tonton di mana pun</h3>
                     <p>Streaming film dan serial TV tanpa batas di ponsel, tablet, laptop, dan TV-mu.</p>
-                    <img src="../assets/accessibility.png" alt="Accessibility Icon" height="100">
+                    <img src="../assets/spirits/accessibility.png" alt="Accessibility Icon" height="100">
                 </div>
                 <div class="benefit-card">
                     <h3>Buat profil untuk anak</h3>
                     <p>Kirim anak-anak untuk bertualang bersama karakter favorit di dunia yang dibuat khusus untuk mereka — gratis dengan keanggotaanmu.</p>
-                    <img src="../assets/support.png" alt="Support Icon" height="100">
+                    <img src="../assets/spirits/support.png" alt="Support Icon" height="100">
                 </div>
             </div>
             <h2>Tanya Jawab Umum</h2>
             <div class="menuTambahan">
                 <ul>
                     <li id="menu1">
-                        <h3><button>Apa itu Flixora? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Apa itu Flixora? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Flixora adalah layanan streaming yang menawarkan berbagai acara TV pemenang penghargaan, film, anime, dokumenter, dan banyak lagi di ribuan perangkat yang terhubung ke Internet. Kamu bisa menonton sepuasnya, kapan pun kamu mau, tanpa satu iklan pun, semuanya dengan satu harga bulanan yang murah. Selalu ada tontonan baru dan acara TV serta film baru yang ditambahkan setiap minggu!
                             </p> 
                     </li>
                     <li id="menu2">
-                        <h3><button>Berapa biaya berlangganan Flixora? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Berapa biaya berlangganan Flixora? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Nikmati Flixora mulai dari Rp54.000/bulan. Tidak ada biaya tambahan atau kontrak tersembunyi — kamu bisa membatalkan kapan saja sesuai keinginanmu.
                             </p>
                     </li>
                     <li id="menu3">
-                        <h3><button>Di mana saya bisa menonton? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Di mana saya bisa menonton? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Tonton di ponsel atau tablet Android-mu, ponsel atau tablet iOS-mu, tablet Fire, TV Android, Smart TV, konsol game, pemutar media digital, atau di browser web di komputer. Gunakan akun Flixora-mu untuk menonton di mana pun kamu berada, kapan pun kamu mau.
                             </p>
                     </li>
                     <li id="menu4">
-                        <h3><button>Bagaimana cara membatalkan berlangganan? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Bagaimana cara membatalkan berlangganan? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Flixora mudah dibatalkan. Tidak ada biaya pembatalan — kamu bisa berhenti kapan saja. Masuk ke akun Flixora-mu di web, buka bagian "Akun", lalu klik tombol
                             </p>
                     </li>
                     <li id="menu5">
-                        <h3><button>Apa yang bisa ditonton di Flixora? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Apa yang bisa ditonton di Flixora? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Flixora memiliki berbagai pilihan film, dokumenter, acara TV, anime, dan banyak lagi. Tonton apa saja yang kamu inginkan, kapan pun kamu mau.
                             </p>
                     </li>
                     <li id="menu6">
-                        <h3><button>Apakah Flixora sesuai bagi anak-anak? <img src="../assets/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
+                        <h3><button>Apakah Flixora sesuai bagi anak-anak? <img src="../assets/spirits/plusIcon.png" alt="Plus Icon" height="12"></button></h3>
                             <p class="answer">
                                 Profil Anak dengan Kontrol Orang Tua memberi orang tua kendali atas apa yang dapat ditonton anak-anak. Anak-anak dapat menikmati acara TV dan film favorit mereka di lingkungan yang aman dan ramah anak yang dibuat khusus untuk mereka.
                             </p>
